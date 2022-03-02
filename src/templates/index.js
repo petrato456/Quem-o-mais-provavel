@@ -21,7 +21,6 @@ function PageConquer() {
 
   const codigoSecreto = 'luis';
 
-  // let temporizador;
   let sequenciaDeCaracteres = [];
 
   let peguei = document.querySelector('.card');
@@ -30,8 +29,6 @@ function PageConquer() {
 
   let peguei2 = document.querySelector('#board-1')
   console.log(peguei2)
-
-  // let some = document.querySelector('.div-recebe-imgs')
 
 
   window.addEventListener('keydown', function (e) {
@@ -56,9 +53,9 @@ function PageConquer() {
       sequenciaDeCaracteres = [];
     }
     console.log(sequenciaDeCaracteres)
-    temporizador = setTimeout(function () {
-      sequenciaDeCaracteres = [];
-    }, 1000)
+    // temporizador = setTimeout(function () {
+    //   sequenciaDeCaracteres = [];
+    // }, 1000)
   })
  
   return (
@@ -121,7 +118,7 @@ function PageConquer() {
               </Board>
             </div>
             <div className="titulo-card"> 
-              <h2 >Mais dedicado</h2>
+              <h2 >M ais dedicado</h2>
               <Board id="board-1" className='board'>
                 <Card id="card-1"  className='card' draggable="true" >
                 </Card>
