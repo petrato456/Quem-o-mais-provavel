@@ -23,11 +23,11 @@ function PageConquer() {
 
   let sequenciaDeCaracteres = [];
 
-  let peguei = document.querySelector('.card');
+  // let peguei = document.querySelector('.card');
 
   // console.log(peguei)
 
-  let peguei2 = document.querySelector('#board-1')
+  // let peguei2 = document.querySelector('#board-1')
   // console.log(peguei2)
 
 
