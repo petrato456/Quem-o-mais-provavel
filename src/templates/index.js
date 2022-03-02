@@ -118,7 +118,7 @@ function PageConquer() {
               </Board>
             </div>
             <div className="titulo-card"> 
-              <h2 >M ais dedicado</h2>
+              <h2 >Mais dedicado</h2>
               <Board id="board-1" className='board'>
                 <Card id="card-1"  className='card' draggable="true" >
                 </Card>
