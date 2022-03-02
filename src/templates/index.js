@@ -136,28 +136,28 @@ function PageConquer() {
             <div className="div-local-imgs">
               <Board id="board-2" className="board-2" >
                 <Card id="card-2" className="card" draggable="true" >
-                  <img id="opa" src={Rafael}></img>
+                  <img id="opa" src={Rafael} alt='img-rafael'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa1" src={eu}></img>
+                  <img id="opa1" src={eu} alt='img-matheus'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa2" src={Luis}></img>
+                  <img id="opa2" src={Luis} alt='img-luis'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa3" src={paula}></img>
+                  <img id="opa3" src={paula} alt='img-paula'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa4" src={wendel}></img>
+                  <img id="opa4" src={wendel} alt='img-wendel'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa5" src={jux}></img>
+                  <img id="opa5" src={jux} alt='img-jux'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa6" src={igor}></img>
+                  <img id="opa6" src={igor} alt='img-igor'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa7" src={cayo}></img>
+                  <img id="opa7" src={cayo} alt='img-cayo'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
                   <img id="opa8" src={felipe}></img>
