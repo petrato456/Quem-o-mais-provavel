@@ -25,10 +25,10 @@ function PageConquer() {
 
   let peguei = document.querySelector('.card');
 
-  console.log(peguei)
+  // console.log(peguei)
 
   let peguei2 = document.querySelector('#board-1')
-  console.log(peguei2)
+  // console.log(peguei2)
 
 
   window.addEventListener('keydown', function (e) {
@@ -40,7 +40,7 @@ function PageConquer() {
       sequenciaDeCaracteres = []
     }
 
-    console.log(fecha)
+    // console.log(fecha)
 
     sequenciaDeCaracteres.push(teclaPressionada);
 
@@ -52,7 +52,7 @@ function PageConquer() {
 
       sequenciaDeCaracteres = [];
     }
-    console.log(sequenciaDeCaracteres)
+    // console.log(sequenciaDeCaracteres)
     // temporizador = setTimeout(function () {
     //   sequenciaDeCaracteres = [];
     // }, 1000)
