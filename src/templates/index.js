@@ -160,7 +160,7 @@ function PageConquer() {
                   <img id="opa7" src={cayo} alt='img-cayo'></img>
                 </Card>
                 <Card id="card-2" className="card" draggable="true">
-                  <img id="opa8" src={felipe}></img>
+                  <img id="opa8" src={felipe} alt='img-felipe'></img>
                 </Card>
               </Board>
             </div>
