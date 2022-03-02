@@ -21,7 +21,7 @@ function PageConquer() {
 
   const codigoSecreto = 'luis';
 
-  let temporizador;
+  // let temporizador;
   let sequenciaDeCaracteres = [];
 
   let peguei = document.querySelector('.card');
@@ -31,7 +31,7 @@ function PageConquer() {
   let peguei2 = document.querySelector('#board-1')
   console.log(peguei2)
 
-  let some = document.querySelector('.div-recebe-imgs')
+  // let some = document.querySelector('.div-recebe-imgs')
 
 
   window.addEventListener('keydown', function (e) {
