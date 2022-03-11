@@ -14,13 +14,14 @@ import cayo from '../images/cayo.png'
 import wendel from '../images/wendel.png'
 import felipe from '../images/felipe.png'
 import bruna from '../images/bruna.png'
+import andre from '../images/andre.png'
 
 
 function PageConquer() {
   const [luis, setLuis] = useState(false)
 
 
-  const codigoSecreto = 'luis';
+  const codigoSecreto = 'andre';
 
   let sequenciaDeCaracteres = [];
 
@@ -181,8 +182,8 @@ function PageConquer() {
         {luis === true &&
           <div className="cosmos">
             <h1>Menção honrosa</h1>
-            <img id="opa2" src={Luis} alt="img-andre"></img>
-            <h1>O cara da grana $$$$$$</h1>
+            <img id="opa2" src={andre} alt="img-andre"></img>
+            <h1>O cara da grana <small>$$$$$$</small></h1>
           </div>
         }
       </div>

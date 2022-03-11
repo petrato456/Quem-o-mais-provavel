@@ -132,4 +132,7 @@ export const Tudo = styled.div`
     margin-left:600px;
     cursor: pointer;
   }
+  small{
+    color:green;
+  }
 `
