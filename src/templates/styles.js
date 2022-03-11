@@ -99,11 +99,11 @@ export const Tudo = styled.div`
     flex-direction:column;
     width: 50%;
     height: 50vh;
-    background: black;
+    background: #202020;
     position:absolute;
     color: red;
     z-index:2;
-    transform:translateY(-500px);
+    transform:translateY(-550px);
     /* transition:2s ease; */
     animation:chama 2s ease;
     backdrop-filter:blur(10px);
@@ -114,7 +114,7 @@ export const Tudo = styled.div`
      
    }
    to{
-    transform:translateY(-650px)
+    transform:translateY(-550px)
 
    }
   }

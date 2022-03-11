@@ -13,6 +13,7 @@ import igor from '../images/igor.png'
 import cayo from '../images/cayo.png'
 import wendel from '../images/wendel.png'
 import felipe from '../images/felipe.png'
+import bruna from '../images/bruna.png'
 
 
 function PageConquer() {
@@ -97,7 +98,7 @@ function PageConquer() {
               </Board>
             </div>
             <div className="titulo-card">
-              <h2>Mais polêmico</h2>
+              <h2>Mais polêmico(a)</h2>
               <Board id="board-1" className="board">
                 <Card id="card-1" className="card" draggable="true">
                 </Card>
@@ -118,14 +119,21 @@ function PageConquer() {
               </Board>
             </div>
             <div className="titulo-card"> 
-              <h2 >Mais dedicado</h2>
+              <h2 >Mais dedicado(a)</h2>
               <Board id="board-1" className='board'>
                 <Card id="card-1"  className='card' draggable="true" >
                 </Card>
               </Board>
             </div>
             <div className="titulo-card"> 
-              <h2 >Mais curioso</h2>
+              <h2 >Mais curioso(a)</h2>
+              <Board id="board-1" className='board'>
+                <Card id="card-1"  className='card' draggable="true" >
+                </Card>
+              </Board>
+            </div>
+            <div className="titulo-card"> 
+              <h2 >Vou levar para vida</h2>
               <Board id="board-1" className='board'>
                 <Card id="card-1"  className='card' draggable="true" >
                 </Card>
@@ -162,17 +170,21 @@ function PageConquer() {
                 <Card id="card-2" className="card" draggable="true">
                   <img id="opa8" src={felipe} alt='img-felipe'></img>
                 </Card>
+                <Card id="card-2" className="card" draggable="true">
+                  <img id="opa9" src={bruna} alt='img-bruna'></img>
+                </Card>
               </Board>
             </div>
           
 
         </main>
-        {/* {luis === true &&
+        {luis === true &&
           <div className="cosmos">
-            <img id="opa2" src={Luis}></img>
-            <h1>OLAAAAAAAAAAAAAAA</h1>
+            <h1>Menção honrosa</h1>
+            <img id="opa2" src={Luis} alt="img-andre"></img>
+            <h1>O cara da grana $$$$$$</h1>
           </div>
-        } */}
+        }
       </div>
     </Tudo>
   )
